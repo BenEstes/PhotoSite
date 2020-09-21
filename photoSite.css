@@ -1,0 +1,31 @@
+body {
+    background-color: #eee;
+}
+
+p {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3vw;
+    font-weight: 700;
+    margin: auto;
+    border-bottom: 5px solid #cccccc90;
+    padding: 10px 0px;
+    width: 47.5%;
+}
+
+img {
+    width: 22.5%;
+    margin: 1.25%;
+    /* The float css property places an element on the left or right side of its container, allowing text and inline elements to wrap around it. The element is removed from the normal flow of the page. Also removes the "mystery space" between elements */
+    float: left;
+}
+
+/* div {
+    width: 75%;
+    height: 6px;
+    background: #80808055;
+    margin: auto;
+    opacity: 0.7;
+} */
